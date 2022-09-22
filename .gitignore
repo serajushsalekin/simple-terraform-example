@@ -1,0 +1,9 @@
+# local .terraform directory
+.terraform/*
+
+# tf var files, may include sensetive data [if comments out plz]
+*.tfvars
+
+# tf state files
+*.tfstate
+*.tfstate.*
